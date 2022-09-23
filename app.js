@@ -109,12 +109,14 @@ function checkMatch () {
         cards[optionTwoId].setAttribute('src', 'img/blank.png');
     }
 
-    //-----------------------------------Turn Reset
+    //-----------------------------------Turn End
 
     scoreDisplay.textContent = cardWon.length;
 
     cardChosen = [];
     cardChosenId = [];
+
+    //-----------------------------------Win
 
     if(cardWon.length == (cardArray.length/2)) {
         scoreDisplay.textContent = 'You win !';
