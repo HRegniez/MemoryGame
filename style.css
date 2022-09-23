@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+main {
+  width: 100vw;
+  padding: 2rem 4rem;
+}
+
+.grid {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=style.css.map */
